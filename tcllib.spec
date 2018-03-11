@@ -61,6 +61,18 @@ w
 EOF
 done
 
+sed -i 's/\/usr\/bin\/env tclsh/\/usr\/bin\/tclsh/' examples/csv/*
+sed -i 's/\/usr\/bin\/env tclsh/\/usr\/bin\/tclsh/' examples/ftp/*
+sed -i 's/\/usr\/bin\/env tclsh/\/usr\/bin\/tclsh/' examples/ftpd/*
+sed -i 's/\/usr\/bin\/env tclsh/\/usr\/bin\/tclsh/' examples/irc/*
+sed -i 's/\/usr\/bin\/env tclsh/\/usr\/bin\/tclsh/' examples/ldap/*
+sed -i 's/\/usr\/bin\/env tclsh/\/usr\/bin\/tclsh/' examples/mapproj/*
+sed -i 's/\/usr\/bin\/env tclsh/\/usr\/bin\/tclsh/' examples/math/*
+sed -i 's/\/usr\/bin\/env tclsh/\/usr\/bin\/tclsh/' examples/mime/mbot/*.tcl
+sed -i 's/\/usr\/bin\/env tclsh/\/usr\/bin\/tclsh/' examples/nntp/*
+sed -i 's/\/usr\/bin\/env tclsh/\/usr\/bin\/tclsh/' examples/oreilly-oscon2001/*
+sed -i 's/\/usr\/bin\/env tclsh/\/usr\/bin\/tclsh/' examples/term/*
+
 %build
 
 %install
