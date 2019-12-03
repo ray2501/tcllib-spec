@@ -19,7 +19,7 @@
 Name:           tcllib
 Url:            http://tcllib.sf.net
 BuildRequires:  tcl
-Version:        1.19
+Version:        1.20
 Release:        0
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 Summary:        Tcl Standard Library
@@ -84,7 +84,7 @@ tclsh ./installer.tcl -no-examples -no-html \
 
 %files
 %defattr(-,root,root)
-%doc license.terms README ChangeLog
+%doc license.terms ChangeLog
 %doc support/releases/history/README-*
 %_datadir/tcl
 %_bindir/*
