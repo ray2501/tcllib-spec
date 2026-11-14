@@ -23,7 +23,7 @@ Summary:        Tcl Standard Library
 License:        TCL
 Group:          Development/Libraries/Tcl
 URL:            http://tcllib.sf.net
-Source0:        http://core.tcl.tk/tcllib/uv/tcllib-%{version}.tar.xz
+Source0:        https://core.tcl-lang.org/uv/tcllib-%{version}.tar.xz
 Source1:        %{name}-rpmlintrc
 BuildRequires:  sed
 BuildRequires:  tcl >= 8.6
